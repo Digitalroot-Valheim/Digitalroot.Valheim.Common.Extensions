@@ -4,19 +4,6 @@ namespace Digitalroot.Valheim.Common.Extensions
 {
   public static class GameObjectExtensions
   {
-    public static GameObject AddMonoBehaviour(this GameObject gameObject, string name)
-    {
-      Type type = Assembly.GetExecutingAssembly().GetType(name) ?? MonoBehaviourRepositoryAssembly.GetType(name);
-
-      if (type == null)
-      {
-        throw new ArgumentException($"Unable to find MonoBehaviour: {name}", nameof(name));
-      }
-
-      gameObject.AddComponent(type);
-      return gameObject;
-    }
-
     public static GameObject AddMonoBehaviour<T>(this GameObject gameObject) where T : MonoBehaviour
     {
       gameObject.AddComponent<T>();
