@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <AssemblyName>Digitalroot.Valheim.Common.Extensions</AssemblyName>
-    <TargetFrameworks>netstandard2.1;net462;net472;net48</TargetFrameworks>
+    <TargetFrameworks>net462</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <PackageId>Digitalroot.Valheim.Common.Extensions</PackageId>
     <RootNamespace>Digitalroot.Valheim.Common.Extensions</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
-    <Copyright>Copyright © Digitalroot Technologies 2021</Copyright>
+    <Copyright>Copyright © Digitalroot Technologies 2021 - 2022</Copyright>
     <PackageProjectUrl>https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Extensions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
