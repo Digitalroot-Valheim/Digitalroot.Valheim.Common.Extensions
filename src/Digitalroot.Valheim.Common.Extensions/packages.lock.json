@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.6.2": {
+      "Pfhoenix.Valheim.ModProjectReferences": {
+        "type": "Direct",
+        "requested": "[1.0.6, )",
+        "resolved": "1.0.6",
+        "contentHash": "uly1BGZy0hy67lIJFmVTB5kLVVqzvCnmBsU4PiI7ptAO17qb163EnC0HvI0+UnuuUHZbEVCoHHPCc44h1Uq2eg=="
+      }
+    }
+  }
+}

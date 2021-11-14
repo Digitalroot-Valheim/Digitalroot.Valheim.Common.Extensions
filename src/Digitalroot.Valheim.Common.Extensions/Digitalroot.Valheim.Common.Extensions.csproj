@@ -22,6 +22,7 @@
     <Description>Extensions for Valheim</Description>
     <PackageReleaseNotes>Update workflows</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
+		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <VersionPrefix>1.0.0</VersionPrefix>
     <RestoreAdditionalProjectSources>
 	    https://nuget.bepinex.dev/v3/index.json;
