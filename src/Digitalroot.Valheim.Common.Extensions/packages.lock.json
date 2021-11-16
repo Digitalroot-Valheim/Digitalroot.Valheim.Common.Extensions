@@ -2,11 +2,17 @@
   "version": 1,
   "dependencies": {
     ".NETFramework,Version=v4.6.2": {
-      "Pfhoenix.Valheim.ModProjectReferences": {
+      "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[1.0.6, )",
-        "resolved": "1.0.6",
-        "contentHash": "uly1BGZy0hy67lIJFmVTB5kLVVqzvCnmBsU4PiI7ptAO17qb163EnC0HvI0+UnuuUHZbEVCoHHPCc44h1Uq2eg=="
+        "requested": "[0.204.5, )",
+        "resolved": "0.204.5",
+        "contentHash": "5+E+7FDWDKAYzL8A1GfBFWmxu2p6LLbd+D5PR79RCAVmJTn/b2cPXdTCiNNe5/msrcpdyaGT3GFra1AjY/V+aA=="
+      },
+      "UnityEngine.Modules": {
+        "type": "Direct",
+        "requested": "[2019.4.32, 2019.4.32]",
+        "resolved": "2019.4.32",
+        "contentHash": "7KmS0Nz+s89igz/tDBRk9PEmWqlwReQZf9E6tl6/uV5DndbaR5WInqis4y6Fwq1B++2leamS7qPffnW5+WQwUw=="
       }
     }
   }
