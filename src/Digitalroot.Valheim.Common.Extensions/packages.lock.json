@@ -4,15 +4,15 @@
     ".NETFramework,Version=v4.6.2": {
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.204.5, )",
-        "resolved": "0.204.5",
-        "contentHash": "5+E+7FDWDKAYzL8A1GfBFWmxu2p6LLbd+D5PR79RCAVmJTn/b2cPXdTCiNNe5/msrcpdyaGT3GFra1AjY/V+aA=="
+        "requested": "[0.205.7, )",
+        "resolved": "0.205.7",
+        "contentHash": "iUIYAsg5HXZj3S4yhUECEuZJk98X8RG75wkJrlmIvfriwIZgV57wt4S6ym3KQNHvx87sxSbU3raSPMPTSfi0hw=="
       },
       "UnityEngine.Modules": {
         "type": "Direct",
-        "requested": "[2019.4.32, 2019.4.32]",
-        "resolved": "2019.4.32",
-        "contentHash": "7KmS0Nz+s89igz/tDBRk9PEmWqlwReQZf9E6tl6/uV5DndbaR5WInqis4y6Fwq1B++2leamS7qPffnW5+WQwUw=="
+        "requested": "[2019.4.31, 2019.4.31]",
+        "resolved": "2019.4.31",
+        "contentHash": "xZjdfGGzZw6nnrn4auRNis6WnAlsvqY1XXioEGJnSku+CylESgEt/sTLYlrbrQ0srnLfSCfx80vR8z4SsI1EuQ=="
       }
     }
   }
