@@ -16,9 +16,9 @@ namespace Digitalroot.Valheim.Common.Extensions
       return prefab;
     }
 
-    public static bool HasParent(this GameObject prefab) => prefab.transform.GetParent() != null;
+    public static bool HasParent(this GameObject prefab) => prefab.transform.parent != null;
 
-    public static GameObject GetParent(this GameObject prefab) => prefab.HasParent() ? prefab.transform.GetParent().gameObject : null;
+    public static GameObject GetParent(this GameObject prefab) => prefab.HasParent() ? prefab.transform.parent.gameObject : null;
 
     public static bool IsBoss(this GameObject prefab) => prefab.GetComponent<Character>()?.IsBoss() ?? false;
 
@@ -43,12 +43,12 @@ namespace Digitalroot.Valheim.Common.Extensions
     {
       List<string> paths = new();
 
-      var parent = prefab.transform.GetParent();
+      var parent = prefab.transform.parent;
 
       while (parent != null)
       {
         paths.Add(parent.name);
-        parent = parent.GetParent();
+        parent = parent.parent;
       }
 
       var sb = new StringBuilder();
@@ -101,7 +101,7 @@ namespace Digitalroot.Valheim.Common.Extensions
 
       if (prefab.HasParent())
       {
-        prefab.AsSpawnPointPatroler(prefab.transform.parent.transform.position);
+        prefab.AsSpawnPointPatroller(prefab.transform.parent.transform.position);
       }
       else
       {
@@ -116,7 +116,7 @@ namespace Digitalroot.Valheim.Common.Extensions
     /// </summary>
     /// <param name="prefab">MonsterAI</param>
     /// <returns></returns>
-    public static GameObject AsSpawnPointPatroler(this GameObject prefab, Vector3 point)
+    public static GameObject AsSpawnPointPatroller(this GameObject prefab, Vector3 point)
     {
       var monsterAI = prefab.GetComponent<MonsterAI>();
       if (monsterAI == null) return prefab;
