@@ -3,6 +3,8 @@ name: NuGet Release
 concurrency: ci-${{ github.ref }}
 
 on:
+  workflow_dispatch:
+    branches: [ main ] # Default release branch
   push:
     branches: [ main ] # Default release branch
     paths:
@@ -23,6 +25,5 @@ jobs:
     with:
       sln-file-name: Digitalroot.Valheim.Common.Extensions
       proj-file-name: Digitalroot.Valheim.Common.Extensions
-      skip-unit-tests: true
       nuget-gh-upload: true
       nuget-s3-upload: true
