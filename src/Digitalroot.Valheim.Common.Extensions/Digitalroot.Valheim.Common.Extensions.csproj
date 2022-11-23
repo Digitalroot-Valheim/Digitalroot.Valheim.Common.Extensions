@@ -44,9 +44,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.205.7" />
-    <PackageReference Include="UnityEngine.Modules" Version="[2019.4.31]">
+    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.212.6" />
+    <PackageReference Include="UnityEngine.Modules" Version="[2020.3.3]">
       <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>compile</IncludeAssets>
     </PackageReference>
   </ItemGroup>
 
