@@ -13,6 +13,8 @@ env:
 jobs:
   call-workflow-nuget-autoupdate:
     uses: Digitalroot-Valheim/.github/.github/workflows/nuget.autoupdate.yml@main
+    secrets:
+      github-pat: ${{ secrets.AUTOMATED_DEPENDENCY_UPDATES_TOKEN }}
     with:
       sln-file-name: Digitalroot.Valheim.Common.Extensions
       proj-file-name: Digitalroot.Valheim.Common.Extensions
