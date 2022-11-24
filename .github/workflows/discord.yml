@@ -17,10 +17,8 @@ env:
 
 jobs:
   call-workflow-discord-hook:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: Digitalroot-Valheim/.github/.github/workflows/discord.yml@main
-      secrets:
-        webhook_url: ${{ secrets.VALHEIM_DISCORD_TITANS_WEBHOOK_URL }}
-      with:
-        repo_name: ${{ github.repository }}
+    uses: Digitalroot-Valheim/.github/.github/workflows/discord.yml@main
+    secrets:
+      webhook_url: ${{ secrets.VALHEIM_DISCORD_TITANS_WEBHOOK_URL }}
+    with:
+      repo_name: ${{ github.repository }}
