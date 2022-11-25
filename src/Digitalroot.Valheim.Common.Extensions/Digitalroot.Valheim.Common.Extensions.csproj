@@ -44,7 +44,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.212.9" />
+    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.212.11" />
   </ItemGroup>
 
 </Project>

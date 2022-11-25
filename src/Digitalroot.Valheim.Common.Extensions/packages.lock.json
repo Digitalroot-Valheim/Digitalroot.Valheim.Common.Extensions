@@ -4,9 +4,9 @@
     ".NETFramework,Version=v4.6.2": {
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.212.9, )",
-        "resolved": "0.212.9",
-        "contentHash": "XahZBAnB1DypWQJquhT2TNtak0CigpDmYTyxBei3rti9FljmLGvNmnrcLheIAavNQnJYCl3kticfZy5Rx/d9Ew=="
+        "requested": "[0.212.11, )",
+        "resolved": "0.212.11",
+        "contentHash": "3ePd5G9Nvts5j+4TMIpkPzogLMxTpw6W3l3ly4/Wpm4fuy2LYmXPo0EeLUZXMjbs9BxURdLGnmBSOORpinNy1Q=="
       }
     }
   }
