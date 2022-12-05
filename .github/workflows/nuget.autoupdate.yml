@@ -5,6 +5,9 @@ concurrency: ci-${{ github.ref }}
 on:
   workflow_dispatch:
 
+  schedule:
+  - cron: "0/15 16-23,0-9 * * *"
+
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
   DOTNET_CLI_TELEMETRY_OPTOUT: true
