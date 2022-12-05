@@ -4,7 +4,6 @@ concurrency: ci-${{ github.ref }}
 
 on:
   workflow_dispatch:
-    branches: [ main ] # Default release branch
 
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
@@ -15,6 +14,3 @@ jobs:
     uses: Digitalroot-Valheim/.github/.github/workflows/nuget.autoupdate.yml@main
     secrets:
       github-pat: ${{ secrets.AUTOMATED_DEPENDENCY_UPDATES_TOKEN }}
-    with:
-      sln-file-name: Digitalroot.Valheim.Common.Extensions
-      proj-file-name: Digitalroot.Valheim.Common.Extensions
