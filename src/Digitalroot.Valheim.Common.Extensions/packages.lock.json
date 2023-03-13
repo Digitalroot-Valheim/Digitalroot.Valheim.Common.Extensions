@@ -4,23 +4,9 @@
     ".NETFramework,Version=v4.6.2": {
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.212.12, )",
-        "resolved": "0.212.12",
-        "contentHash": "acxgyCNR9wbOzOlyf3d6Hv+H8vDOcOMwywGTkk4sZXvSS4A0aCjKljzLl2iAOkcpueyy68MikFhfHcGy8vEu1w=="
-      },
-      "Microsoft.NETFramework.ReferenceAssemblies": {
-        "type": "Direct",
-        "requested": "[1.0.2, )",
-        "resolved": "1.0.2",
-        "contentHash": "5/cSEVld+px/CuRrbohO/djfg6++eR6zGpy88MgqloXvkj//WXWpFZyu/OpkXPN0u5m+dN/EVwLNYFUxD4h2+A==",
-        "dependencies": {
-          "Microsoft.NETFramework.ReferenceAssemblies.net462": "1.0.2"
-        }
-      },
-      "Microsoft.NETFramework.ReferenceAssemblies.net462": {
-        "type": "Transitive",
-        "resolved": "1.0.2",
-        "contentHash": "vnWMOt5+4SLOLu5hlB54LMK5OHqsX+5ekbo6vb7USvCM5uA4UKtATuMvIAw69ak62F94c+3895XwF5TcjjzpVw=="
+        "requested": "[0.212.18, )",
+        "resolved": "0.212.18",
+        "contentHash": "7If2WpFYCgDDkF+R6Cdl4pExlTPairmciUeHr4TYapXGW3I1E2DGQyeqwY8nnL33ulp0zPnKGlQWFqrUEOPONA=="
       }
     }
   }
