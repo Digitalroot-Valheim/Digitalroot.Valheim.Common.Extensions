@@ -45,7 +45,7 @@ namespace Digitalroot.Valheim.Common.Extensions
 
     public static Player GetPlayerWithEquippedItem(ItemDrop.ItemData itemData)
     {
-      return Player.m_players.FirstOrDefault(player => player.IsItemEquiped(itemData));
+      return Player.s_players.FirstOrDefault(player => player.IsItemEquiped(itemData));
     }
   }
 }
