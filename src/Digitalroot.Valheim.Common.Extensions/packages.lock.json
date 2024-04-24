@@ -10,9 +10,9 @@
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.217.30, )",
-        "resolved": "0.217.30",
-        "contentHash": "B1HHmPAlCire+YKJKYRiHpYRQHUyAiTrQtTujhua1AxQgMS6RCUlJ1kr3XNks3976gduuOsWJ2ydd6MHqLxRvA=="
+        "requested": "[0.218.9, )",
+        "resolved": "0.218.9",
+        "contentHash": "dWJmBZrP0Zkb3YF2jea3flpg+GpkSLuUmtkWwrFosCDcskARxWBe93mL4Zfsy2Um0vJx1UfeWWyqgF6CKxGA1w=="
       }
     }
   }
