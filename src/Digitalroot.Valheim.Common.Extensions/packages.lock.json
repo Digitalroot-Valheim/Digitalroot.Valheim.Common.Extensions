@@ -4,15 +4,29 @@
     ".NETFramework,Version=v4.8": {
       "Digitalroot.References.Unity": {
         "type": "Direct",
-        "requested": "[2022.3.12, )",
-        "resolved": "2022.3.12",
-        "contentHash": "QgMwg+WAnbvmjxSuL+PKjr+35B0FhO0Thw9ddoSBrfBkYsMSCYAqJ0APsN2AQfXn3zVdJgP7Rw2S41DJfuBxRQ=="
+        "requested": "[2022.3.17, )",
+        "resolved": "2022.3.17",
+        "contentHash": "edxgtveXwn+ACtMyak1McLwoQxKm/GXdh8Drcx2hoFl5VoFeR9wdwEz1yJdVtbamtecZOVghEn3tKKR3ekqOeg=="
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.218.9, )",
-        "resolved": "0.218.9",
-        "contentHash": "dWJmBZrP0Zkb3YF2jea3flpg+GpkSLuUmtkWwrFosCDcskARxWBe93mL4Zfsy2Um0vJx1UfeWWyqgF6CKxGA1w=="
+        "requested": "[0.218.11, )",
+        "resolved": "0.218.11",
+        "contentHash": "aSAvdNZCAdM0W10iCT4lO65h7Ov+S4S6bKWPKpTQ9BbeZLHS8jYyBecK4XipJapahGAScn32c/TDAZg0qtdcEQ=="
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.3, )",
+        "resolved": "1.0.3",
+        "contentHash": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net48": {
+        "type": "Transitive",
+        "resolved": "1.0.3",
+        "contentHash": "zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ=="
       }
     }
   }
