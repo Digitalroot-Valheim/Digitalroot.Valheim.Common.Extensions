@@ -14,9 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E64D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2}"
 	ProjectSection(SolutionItems) = preProject
-		..\.github\workflows\discord.yml = ..\.github\workflows\discord.yml
 		..\.github\workflows\nuget.autoupdate.yml = ..\.github\workflows\nuget.autoupdate.yml
-		..\.github\workflows\nuget.release.yml = ..\.github\workflows\nuget.release.yml
+		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalroot.Valheim.Common.Extensions", "Digitalroot.Valheim.Common.Extensions\Digitalroot.Valheim.Common.Extensions.csproj", "{50EA1929-24FC-4773-B30B-E7D556A09D60}"
